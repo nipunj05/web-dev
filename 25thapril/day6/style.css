@@ -1,7 +1,7 @@
 /* defining the global variables */
 :root{
     --primaryColor: #146C94;
-    --backgroundColor: #19A7CE;
+    --backgroundColor: #05BFDB;
     --titleFont:'Sacramento', cursive;
     --myTitleFont:'Dancing Script', cursive;
     --fontDefaultTextFont: 'Lato', sans-serif;
@@ -51,6 +51,7 @@ body{
 }
 .mountain{
     width: 400px;
+    padding: auto auto;
 }
 img{
     margin-bottom:-5px;
