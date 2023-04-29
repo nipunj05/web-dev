@@ -1,0 +1,98 @@
+/* defining the global variables */
+:root{
+    --primaryColor: #577D86;
+    --backgroundColor: #B9EDDD;
+    --titleFont:'Sacramento', cursive;
+    --myTitleFont:'Dancing Script', cursive;
+    --fontDefaultTextFont: 'Lato', sans-serif;
+    --fontDefaultHeading: 'Montserrat', sans-serif; 
+}
+
+/* main css */
+
+body{
+    margin: 0px;
+    color: var(--primaryColor);
+}
+
+.top-section{
+    background-color: var(--backgroundColor);
+    color: var(--primaryColor);
+    /* height: 400px; */
+    text-align: center;
+    padding-top: 80px;
+    
+}
+.heading {
+    font-family: var(--titleFont);
+    margin: 0;
+}
+.h2 {
+    font-family: var(--fontDefaultTextFont);
+    font-weight: 900;
+    margin: 0;
+    font-size: 2.25em;  /* 1em = 16px */
+    padding-bottom: 20px;
+
+}
+.top-cloud{
+    position: absolute;
+    margin-block-start: -40px;
+    margin-left: 350px;
+    width: 100px;
+}
+.bottom-cloud{
+    position: absolute;
+    margin-block-start: 50px;
+    margin-left: -200px;
+    width: 100px;
+}
+.mountain{
+    width: 400px;
+}
+img{
+    margin-bottom:-5px;
+}
+/* /* .profile-pic{
+    border-radius: 100%;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 450px;
+    width: 450px; */
+
+.profile-pic{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 100px auto;
+
+    
+}
+.pic{
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+}
+.middle-section{
+    margin: auto;
+    text-align: center;
+    width: auto;
+}
+.intro{
+    width: 2 5%;
+    margin: auto;
+    line-height: 25px;
+}
+
+hr{
+    border: dotted 20px;
+
+}
+
+/* s
+font-family: 'Dancing Script', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif; 
+*/

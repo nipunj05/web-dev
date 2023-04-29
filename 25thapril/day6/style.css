@@ -1,0 +1,174 @@
+/* defining the global variables */
+:root{
+    --primaryColor: #FFA559;
+    --backgroundColor: #FFE6C7;
+    --titleFont:'Sacramento', cursive;
+    --myTitleFont:'Dancing Script', cursive;
+    --fontDefaultTextFont: 'Lato', sans-serif;
+    --fontDefaultHeading: 'Montserrat', sans-serif; 
+}
+
+/* main css */
+
+body{
+    margin: 0px;
+    color: var(--primaryColor);
+    font-family: var(--fontDefaultHeading);
+    line-height: 25px;
+}
+
+.top-section{
+    background-color: var(--backgroundColor);
+    color: var(--primaryColor);
+    /* height: 400px; */
+    text-align: center;
+    padding-top: 80px;
+    
+}
+.heading {
+    font-family: var(--titleFont);
+    margin: 0%;
+}
+.h2 {
+    font-weight: 900;
+    margin: 0;
+    font-size: 2.25em;  /* 1em = 16px */
+    padding-bottom: 20px;
+    font-family: var(--fontDefaultHeading);
+
+}
+.top-cloud{
+    position: absolute;
+    margin-block-start: -40px;
+    margin-left: 350px;
+    width: 100px;
+}
+.bottom-cloud{
+    position: absolute;
+    margin-block-start: 50px;
+    margin-left: -200px;
+    width: 100px;
+}
+.mountain{
+    width: 400px;
+}
+img{
+    margin-bottom:-5px;
+}
+/* /* .profile-pic{
+    border-radius: 100%;
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 450px;
+    width: 450px; */
+
+.profile-pic{
+    display: flex;
+    justify-content: center;
+    margin: 50px auto 100px auto;
+
+    
+}
+.pic{
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+}
+.middle-section{
+    margin: auto;
+    text-align: center;
+    width: auto;
+}
+.intro{
+    width: 55%;
+    margin: auto;
+    
+}
+hr{
+    border: dotted 5px var(--backgroundColor);
+    border-bottom: none;
+    margin: 120px auto 120px auto; /*TRBL*/
+    width: 10%;
+
+}
+
+.skill-image{
+    width: 100px;
+}
+.my-skills{
+    margin: 0px auto 100px auto;
+}
+.left{
+    float: left;
+    margin-right: 50px;
+}
+.right{
+    float: right;
+    margin-left: 50px;
+}
+.skills{
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.contact{
+    text-decoration: none;
+    background-color:darkgreen;
+    background-image: linear-gradient(
+        180deg,
+        var(--primaryColor),
+        var(--backgroundColor)
+    );
+    padding: 5px 20px 5px;
+    border-radius: 30px;
+    font-size:  25px;
+    color: white;
+    margin-top: 5px;
+    
+    
+}
+.contact:hover{
+    background-image: linear-gradient(
+        180deg,
+        var(--backgroundColor),
+        var(--primaryColor)
+    );
+
+}
+.botton-section{
+    background-color: var(--backgroundColor);
+    text-align: center;
+    padding: 40px 0px ;
+    color: white;
+    margin-top: 70px;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.social{
+    margin: auto 50px;
+}
+
+.social:hover{
+    color:orangered;
+}
+
+
+
+.social-container{
+    margin-bottom: 50px;
+}
+
+.copyright{
+    font-size: 0.75rem;
+}
+
+/* s
+font-family: 'Dancing Script', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif; 
+*/
